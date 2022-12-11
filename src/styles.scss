@@ -3,3 +3,19 @@ html, body {
     margin: 0;
     height: 100%;
 }
+
+// Root level screens and navigation
+.rootScreen {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.detailsPanel {
+    flex: 85%;
+}
+
+// Side navigation menu
+.no-text-decoration {
+    text-decoration: none;
+}

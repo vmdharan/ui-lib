@@ -1,0 +1,38 @@
+.button-base {
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px;
+}
+.button-base:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.button-default {
+    color: white;
+    background-color: rgb(62, 75, 165);
+}
+
+.button-info {
+    color: white;
+    background-color: rgb(124, 128, 152);
+}
+
+.button-warn {
+    color: white;
+    background-color: rgb(232, 202, 48);
+}
+
+.button-debug {
+    color: white;
+    background-color: rgb(60, 156, 60);
+}
+
+.button-error {
+    color: white;
+    background-color: rgb(192, 60, 60);
+}

@@ -1,11 +1,13 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import SideNav from '../components/SideNav';
+import '../styles.scss';
 
 const Root = () => (
-    <div>
-        <div>Content 1</div>
-        <div>
-            Content - Outlet
+    <div className='rootScreen'>
+        <SideNav />
+
+        <div className='detailsPanel'>
             <Outlet />
         </div>
     </div>

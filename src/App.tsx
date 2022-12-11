@@ -6,13 +6,14 @@ import {
 
 import ErrorPage from './error-page';
 import Root from './routes';
+import Dashboard from './screens/dashboard';
 
 const router = createBrowserRouter([
     { 
         path: '/', element: <Root />, errorElement: <ErrorPage />,
-        // children: [
-        //     { path: '/', element: <Dashboard /> },
-        // ]
+        children: [
+            { path: '/', element: <Dashboard /> },
+        ]
     },
 ]);
 
